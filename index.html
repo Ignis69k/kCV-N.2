@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Kode+Mono:wght@400..700&family=Libertinus+Keyboard&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tektur:wght@400..900&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        .navi-bar{
+         display: flex;
+         background-color: gray;
+         width: 80%;
+         padding: 20px 50px;
+         margin: auto;
+         border-radius: 10px;
+        }
+        .menu{
+            flex:1;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .menu a{
+            font-family: "Kode Mono", monospace;
+            text-decoration: none;
+            color: wheat;
+            margin: 0 20px;
+        }
+        .menu a:hover{
+            text-shadow: 0 0 10px gold;
+        }
+        .ico-bar img{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navi-bar">
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Project</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="ico-bar">
+            <a href=""><img src="./imgs/discord-icon.jpg" alt=""></a>
+            <a href=""><img src="./imgs/reddit-logo.png" alt=""></a>
+            <a href=""><img src="./imgs/X_logo.jpg" alt=""></a>
+        </div>
+
+    </div>
+    <div class="content">
+    </div>
+
+</body>
+
+</html>
