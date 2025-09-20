@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Kode+Mono:wght@400..700&family=Libertinus+Keyboard&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tektur:wght@400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.navi-bar {
+    display: flex;
+    background-color: gray;
+    width: 80%;
+    padding: 20px 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu a {
+    font-family: "Kode Mono", monospace;
+    text-decoration: none;
+    color: wheat;
+    margin: 0 20px;
+}
+
+.menu a:hover {
+    text-shadow: 0 0 10px gold;
+}
+
+.ico-bar img {
+    width: 30px;
+    height: 30px;
+}
+.content{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 8%;
+    width: 80%;
+    /* background-color: aquamarine; */
+}
+.content img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    transform: translateX(200px);
+}
+.box1{
+    /* background-color: cornflowerblue; */
+    font-family: "Asimovian";
+    color: white;
+    width: 40%;
+}
+.box1 p{
+    color: gray;
+}
+.box1 button{
+    font-family: "Playfair Display";
+    background-color: rgb(14, 199, 14);
+    box-shadow: 0 0 10px rgb(14, 199, 14);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+.workspan{
+    font-family: "Tektur";
+    /* background-color: coral; */
+    color: white;
+    display: flex;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.foot{
+    display: flex;
+    color: white;
+    /* background-color: burlywood; */
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.foot img{
+    width: 150px;
+}
